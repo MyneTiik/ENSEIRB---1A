@@ -160,3 +160,8 @@ Formules :
 
 - **Sinus hyperbolique :**
   $$\operatorname{sh}(x) = \frac{e^x - e^{-x}}{2}$$
+
+
+
+
+Chapitre 2 : [[Chapitre 2 - Fonction d'une variable réelle]]
