@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Maths appliquées/Chapitre 1 - Nombres complexes.md",
+                "file": "Maths appliquées/Chapitre 3 - Séries & Développements Limités.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Chapitre 1 - Nombres complexes"
+              "title": "Chapitre 3 - Séries & Développements Limités"
             }
           }
         ]
@@ -161,7 +161,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Maths appliquées/Chapitre 1 - Nombres complexes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -202,10 +201,11 @@
   },
   "active": "1bc8aad61ffa299b",
   "lastOpenFiles": [
+    "Maths appliquées/Chapitre 3 - Séries & Développements Limités.md",
     "Maths appliquées/Chapitre 2 - Fonction d'une variable réelle.md",
+    "Maths appliquées/Chapitre 1 - Nombres complexes.md",
     "Maths appliquées",
     "Sans titre.base",
-    "Maths appliquées/Chapitre 1 - Nombres complexes.md",
     "Bienvenue.md",
     "photos",
     "photos/Pasted image 20260908131834.png",
