@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Chapitre 3/3.3 - Propriétés fondamentales.md",
+                "file": "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.3 - Propriétés fondamentales"
+              "title": "3.4 - Tableaux des Primitives Usuelles"
             }
           }
         ]
@@ -201,10 +201,10 @@
   },
   "active": "1bc8aad61ffa299b",
   "lastOpenFiles": [
-    "Mathématiques/Chapitre 3/3.1 - Sommes de Riemann et définition.md",
-    "Mathématiques/Chapitre 3/3.2 - Primitives et Théorème Fondamental.md",
     "Mathématiques/Chapitre 3/3.3 - Propriétés fondamentales.md",
+    "Mathématiques/Chapitre 3/3.2 - Primitives et Théorème Fondamental.md",
     "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
+    "Mathématiques/Chapitre 3/3.1 - Sommes de Riemann et définition.md",
     "Mathématiques/Chapite 2/Chapitre 2 - Fonctions d'une variable réelle.md",
     "Mathématiques/Chapite 2/2.6 - Développement limité et Taylor.md",
     "Mathématiques/Chapitre 1/1.3 - Notation polaire.md",
