@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Chapitre 2/2.5 - Dérivation.md",
+                "file": "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.5 - Dérivation"
+              "title": "3.4 - Tableaux des Primitives Usuelles"
             }
           }
         ]
@@ -201,6 +201,8 @@
   },
   "active": "1bc8aad61ffa299b",
   "lastOpenFiles": [
+    "Mathématiques/Chapitre 3/Chapitre 3 - Calcul Intégral.md",
+    "Mathématiques/Chapitre 2/2.5 - Dérivation.md",
     "Mathématiques/Chapitre 2/2.3 - Limites.md",
     "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
     "Mathématiques/Chapitre 3/3.3 - Propriétés fondamentales.md",
@@ -210,9 +212,7 @@
     "Mathématiques/Chapitre 2/2.6 - Développement limité et Taylor.md",
     "Mathématiques/Chapitre 1/1.3 - Notation polaire.md",
     "Mathématiques/Chapitre 1/Chapitre 1 - Nombres complexes.md",
-    "Mathématiques/Chapitre 3/Chapitre 3 - Calcul Intégral.md",
     "Mathématiques/Chapitre 1/1.1 - Introduction du plan complexe.md",
-    "Mathématiques/Chapitre 2/2.5 - Dérivation.md",
     "Mathématiques/Chapitre 2/2.4 - Continuité.md",
     "Mathématiques/Chapitre 2/2.2 - Domaine de définition.md",
     "Mathématiques/Chapitre 2/2.1 - Définition.md",
