@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
+                "file": "Mathématiques/Chapitre 3/3.7 - Changement de variables bijectif.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.4 - Tableaux des Primitives Usuelles"
+              "title": "3.7 - Changement de variables bijectif"
             }
           }
         ]
@@ -201,10 +201,13 @@
   },
   "active": "1bc8aad61ffa299b",
   "lastOpenFiles": [
+    "Mathématiques/Chapitre 3/3.6 - Intégration par parties.md",
+    "Mathématiques/Chapitre 3/3.7 - Changement de variables bijectif.md",
+    "Mathématiques/Chapitre 3/3.5 - Décomposition et linéarisation de fonctions composées.md",
+    "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
     "Mathématiques/Chapitre 3/Chapitre 3 - Calcul Intégral.md",
     "Mathématiques/Chapitre 2/2.5 - Dérivation.md",
     "Mathématiques/Chapitre 2/2.3 - Limites.md",
-    "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
     "Mathématiques/Chapitre 3/3.3 - Propriétés fondamentales.md",
     "Mathématiques/Chapitre 3/3.2 - Primitives et Théorème Fondamental.md",
     "Mathématiques/Chapitre 3/3.1 - Sommes de Riemann et définition.md",
@@ -227,10 +230,7 @@
     "Mathématiques/Chapitre 2",
     "Mathématiques/Chapitre 1",
     "Mathématiques/Chapitre 1 - Nombres Complexes/Chapitre 1 - Nombres Complexes, Introduction et Formes.md",
-    "Chapitre 3 - Calcul Intégral.md",
     "Mathématiques/Chapitre 1 - Nombres Complexes",
-    "Sans titre.md",
-    "Maths appliquées/Chapitre 3 - Séries & Développements Limités.md",
     "Mathématiques",
     "Maths appliquées",
     "Sans titre.base",
