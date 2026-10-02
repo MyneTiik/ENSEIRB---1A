@@ -219,8 +219,34 @@ void ascii(){
     }
 }
 
+// Resistance
+enum color {Noir,Marron,Rouge,Orange,Jaune,Vert,Bleu,Violet,Gris,Blanc};
 
-// --- MAIN UNIQUE ---
+int times_pow10(int n, int p){
+    int x=1;
+    while (p>0) {x*=10; p-=1;}
+    return n*x;
+
+}
+
+int resistance(enum color c1, enum color c2, enum color c3){
+    return times_pow10(c1*10+c2, c3);
+}
+
+//Poiteurs
+
+void min_max(int l, int t[], int *min, int *max){
+    int i;
+    *max=t[0];
+    *min=t[0];
+    for(i=0;i<l;i++){
+        if (t[i]>*max){ *max=t[i];}
+        if (t[i]<*min){ *min=t[i];}
+    }
+    
+}
+
+
 
 int main(int argc, char *argv[]) {
     SetConsoleOutputCP(CP_UTF8);
@@ -279,9 +305,18 @@ int main(int argc, char *argv[]) {
     printf("x=%d, y=%d\n",x,y);
     faux_swap(&x, &y);
     printf("x=%d, y=%d\n",x,y);
-    */
+    
 
     ascii();
+
+    printf("resistance : %d\n",resistance(Noir, Jaune, Rouge));
+    */
+
+    int tab[5]={2,6,3,90,1};
+    int min;
+    int max;
+    min_max(5, tab, min, max);
+    printf("min : %d, max : %d\n", &min, &max);
 
     return 0;
 }
