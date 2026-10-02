@@ -151,21 +151,26 @@ int bis_years(int annee){
 
 // Comparaison deux deux tableaux triés et croissant
 
-/*
+
 int compare_tabs(int *tab, int t, int *tab2, int t2){
     int doublons[5];
+    int k=0;
     for (int i=0;i<t;i++){
         for (int j=0;(tab2[j]!=tab[i]) || (j<t2);j++){
             if (tab[i]==tab2[j]){
-                doublons[i]=tab[i];
+                doublons[k]=tab[i];
+                k+=1;
+                printf("doublon %d : %d\n",i, tab[i]);
+                break;
             }   
             //printf("%d, %d",i,j);
-            printf("tab[i] : %d, tab2[j] : %d\n", tab[i], tab2[j]);
+            //printf("tab[i] : %d, tab2[j] : %d\n", tab[i], tab2[j]);
         }
     }
+    print_array(doublons, 5);
     return 0;
 }
-    */
+
 
 // Tri a bulle (merci marie)
 
@@ -197,6 +202,22 @@ int sort_bubble(int *tab, int t){
     return 0;
 }
 
+// Swap deux variables grâce aux emplaceents de var (pointers)
+
+void faux_swap(int *a, int *b){
+    int temp = *a;
+    *a=*b;
+    *b=temp;
+
+    
+}
+
+void ascii(){
+    unsigned char i;
+    for(i=0; i<255; i++){
+        printf("%c \t %d \t 0x%x \t 0%o\n",i,i,i,i);
+    }
+}
 
 
 // --- MAIN UNIQUE ---
@@ -242,17 +263,25 @@ int main(int argc, char *argv[]) {
     bis_years(1990);
     
 
-    int tableau1[5]={1,2,5,6,9};
-    int tableau2[5]={2,3,5,7,9};
-    compare_tabs(tableau1, 5, tableau2, 5);
-    
-
     int tableau1[5]={2,3,1766475,7,9};
     printf("Tab1 : %d, tab2 : %d",croissant(tableau1,5),croissant(tableau2,5));
-    */
 
     int tableauA[7]={8,1,2,10,5,3,9};
     sort_bubble(tableauA,7);
+
+    int tableau1[5]={1,2,5,6,9};
+    int tableau2[5]={2,3,5,7,9};
+    compare_tabs(tableau1, 5, tableau2, 5);
+
+    int x = 5;
+    int y = 10;
+    faux_swap(&x, &y);
+    printf("x=%d, y=%d\n",x,y);
+    faux_swap(&x, &y);
+    printf("x=%d, y=%d\n",x,y);
+    */
+
+    ascii();
 
     return 0;
 }
