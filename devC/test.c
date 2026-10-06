@@ -207,9 +207,7 @@ int sort_bubble(int *tab, int t){
 void faux_swap(int *a, int *b){
     int temp = *a;
     *a=*b;
-    *b=temp;
-
-    
+    *b=temp;   
 }
 
 void ascii(){
@@ -243,9 +241,56 @@ void min_max(int l, int t[], int *min, int *max){
         if (t[i]>*max){ *max=t[i];}
         if (t[i]<*min){ *min=t[i];}
     }
-    
 }
 
+/*
+int strcmp(const char *s1, const char *s2) {
+    int i = 0;
+    while (*(s1 + i) == *(s2 + i)) {
+        if (*(s1 + i) == '\0') {
+            return 0;
+        }
+        i++;
+    }
+    if(*(s1 + i) < *(s2 + i)) {return 1;}
+    if(*(s1 + i) > *(s2 + i)) {return -1;}
+}
+    */
+
+const char *find_word(const char *texte, const char *motif){
+    int i = 0;
+    while (*(texte + i) != '\0'){
+        int j = 0; 
+        
+        while (*(motif + j) != '\0' && *(texte + i + j) == *(motif + j)) {
+            j++;
+        }
+        if (*(motif + j) == '\0') {
+            return (texte + i);
+        }
+
+        i++;
+    }
+    return NULL; 
+}
+
+//
+
+int multiples(int lt, int lc, int t[], int c[]){
+    int i=0;
+    int s=0;
+    while(i<lt){
+        int j=0;
+        while(j<lc){
+            if(t[i]%c[j]==0){
+                s+=1;
+            }
+            j+=1;
+        }
+    i++;
+    }
+    return s;
+}
 
 
 int main(int argc, char *argv[]) {
@@ -310,13 +355,34 @@ int main(int argc, char *argv[]) {
     ascii();
 
     printf("resistance : %d\n",resistance(Noir, Jaune, Rouge));
-    */
+    
 
-    int tab[5]={2,6,3,90,1};
+    int tab[10]={2,6,3,90,1,42,90,13,99,0};
     int min;
     int max;
-    min_max(5, tab, min, max);
-    printf("min : %d, max : %d\n", &min, &max);
+    min_max(10, tab, &min, &max);
+    printf("min : %d, max : %d\n", min, max);
+    
+
+    char *mot1="Correction";
+    char *mot2="Correctif";
+    printf("%d\n", strcmp(mot2, mot1));
+
+    
+    const char *texte = "L'analyse du réseau local a révélé plusieurs paquets suspects lors de la capture du trafic.";
+    const char *motif = "réseau";
+    const char *res = find_word(texte, motif);
+    if (res != NULL) {
+        printf("Resultat : %s\n", res);
+    } else {
+        printf("Non trouvé\n");
+    }
+
+    */
+
+    int tab1[5]={1,2,3,9,10};
+    int tab2[2]={2,3};
+    printf("%d",multiples(5, 2, tab1, tab2));
 
     return 0;
 }
