@@ -1,4 +1,3 @@
-
 # Algorithmique : Méthodologie, Fiche de Révision et Entraînement
 
 ## 1. Méthodologie de résolution d'un problème algorithmique
