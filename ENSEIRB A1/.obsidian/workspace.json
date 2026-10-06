@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "3.7 - Changement de variables bijectif"
             }
+          },
+          {
+            "id": "69936876bcec0c3b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algo/Algo fiche.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algo fiche"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,10 +214,12 @@
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "1bc8aad61ffa299b",
+  "active": "69936876bcec0c3b",
   "lastOpenFiles": [
-    "Mathématiques/Chapitre 3/3.6 - Intégration par parties.md",
     "Mathématiques/Chapitre 3/3.7 - Changement de variables bijectif.md",
+    "Algo/Algo fiche.md",
+    "Algo",
+    "Mathématiques/Chapitre 3/3.6 - Intégration par parties.md",
     "Mathématiques/Chapitre 3/3.5 - Décomposition et linéarisation de fonctions composées.md",
     "Mathématiques/Chapitre 3/3.4 - Tableaux des Primitives Usuelles.md",
     "Mathématiques/Chapitre 3/Chapitre 3 - Calcul Intégral.md",
@@ -229,7 +246,6 @@
     "Mathématiques/Chapitre 3",
     "Mathématiques/Chapitre 2",
     "Mathématiques/Chapitre 1",
-    "Mathématiques/Chapitre 1 - Nombres Complexes/Chapitre 1 - Nombres Complexes, Introduction et Formes.md",
     "Mathématiques/Chapitre 1 - Nombres Complexes",
     "Mathématiques",
     "Maths appliquées",
