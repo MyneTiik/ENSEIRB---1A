@@ -1,0 +1,93 @@
+\documentclass[11pt, a4paper]{article}
+
+% --- Encodage et Langue ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+
+% --- Mise en page et Géométrie ---
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{fancyhdr} % Pour les en-têtes et pieds de page
+\usepackage{setspace}
+\onehalfspacing % Interligne un et demi pour le confort de lecture
+
+% --- Mathématiques ---
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{mathtools}
+
+% --- Couleurs et Graphiques ---
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% --- Liens et Références ---
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!70!black,
+    citecolor=blue!70!black,
+    urlcolor=blue!70!black
+}
+
+% --- Style des en-têtes ---
+pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\textit{Nom du cours / Module}}
+\fancyhead[R]{\textit{Mes Notes - Date}}
+\fancyfoot[C]{\thepage}
+
+% --- Environnements de théorèmes (optionnel) ---
+\theoremstyle{definition}
+\newtheorem{defn}{Définition}[section]
+\newtheorem{thm}{Théorème}[section]
+\newtheorem{prop}{Proposition}[section]
+\newtheorem{ex}{Exemple}[section]
+
+% ==========================================
+%           DEBUT DU DOCUMENT
+% ==========================================
+\begin{document}
+
+% --- Page de garde / Titre ---
+\begin{center}
+    {\huge \textbf{Titre du Cours}} \\[0.5cm]
+    {\large Sous-titre ou Chapitre} \\[0.5cm]
+    \vspace{0.3cm}
+    \textbf{Auteur :} Votre Nom \\
+    \textbf{Date :} \today
+\end{center}
+
+\hrule
+\vspace{1cm}
+
+% --- Table des matières (optionnel) ---
+\tableofcontents
+\newpage
+
+% ==========================================
+section{Introduction}
+% ==========================================
+Rédigez votre introduction ici. C'est l'endroit idéal pour poser les bases du cours ou du chapitre.
+
+% ==========================================
+section{Concepts clés}
+% ==========================================
+
+\subsection{Première notion}
+Vous pouvez insérer des formules mathématiques en ligne comme $E = mc^2$, ou bien en bloc centré :
+$$
+\int_{-\infty}^{+\infty} e^{-x^2} dx = \sqrt{\pi}
+$$
+
+\begin{defn}
+    Une définition importante s'écrit de cette manière pour bien ressortir dans vos notes.
+\end{defn}
+
+% ==========================================
+section{Conclusion}
+% ==========================================
+Résumé rapide des points à retenir pour les révisions.
+
+\end{document}

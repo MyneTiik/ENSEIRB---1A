@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <math.h>
 #include <windows.h>
 #define MAX_PASCAL_SIZE 100
 
@@ -293,8 +294,51 @@ int multiples(int lt, int lc, int t[], int c[]){
 }
 
 
+/////////////////////////////////   STRUCT    ///////////////////////////////////
+
+struct point{
+    float x;
+    float y;
+};
+
+void read_point(struct point *p){
+    printf("coords?");
+    scanf("%f %f", &(p->x), &(p->y));
+
+}
+
+void print_point(struct point *p){
+    printf("(%.2f;%.2f)\n",p->x,p->y);
+}
+
+float distance(struct point *a, struct point *b){
+    return sqrt((a->x-b->x)*(a->x-b->x) + (a->y-b->y)*(a->y-b->y));
+}
+
+enum triangle{
+    ISOCELE, RECTANGLE, EQUILATERAL, SCALENE
+};
+
+enum triangle triangle_type(struct point *p){
+    float p01=distance(p[0],p[1]);
+    float p02=distance(p[0],p[2]);
+    float p12=distance(p[1],p[2]);
+    if ((p01==p02) && (p01==P12) && (p02==p12))
+        return EQUILATERAL;
+    return SCALENE;
+}
+
 int main(int argc, char *argv[]) {
     SetConsoleOutputCP(CP_UTF8);
+
+    struct point p[3];
+    for(int i=0;i<3;i+=1)
+        p[i]=read_point();
+    enum triangle t=triangle_type(p);
+    return 1;
+
+
+
     /*
     printf("--- Tests Palindrome et Strings ---\n");
     if (argc > 1) {
@@ -378,11 +422,13 @@ int main(int argc, char *argv[]) {
         printf("Non trouvé\n");
     }
 
-    */
+    
 
     int tab1[5]={1,2,3,9,10};
     int tab2[2]={2,3};
     printf("%d",multiples(5, 2, tab1, tab2));
+
+    */
 
     return 0;
 }

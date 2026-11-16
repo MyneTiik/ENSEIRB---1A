@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "Algo fiche"
             }
+          },
+          {
+            "id": "9ff8580c1b93471c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.14.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notes de version 1.14.4"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -204,17 +216,17 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Créer un nouveau canvas": false,
       "obsidian-git:Open Git source control": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "bases:Créer une nouvelle base": false
     }
   },
-  "active": "69936876bcec0c3b",
+  "active": "9ff8580c1b93471c",
   "lastOpenFiles": [
     "Mathématiques/Chapitre 3/3.7 - Changement de variables bijectif.md",
     "Algo/Algo fiche.md",
