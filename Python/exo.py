@@ -1,3 +1,7 @@
+import os
+
+
+
 '''
 type(x) -> donne le type de 'x'
 
@@ -185,6 +189,48 @@ def TTDOC():
         print(lyrics[x])
     print('\n')
         
-TTDOC()
+#TTDOC()
     
     
+def moyenne(l: list) -> int:
+  """Calcule la moyenne de la liste (l:list)->int"""
+  s=0
+  for note in l:
+    s+=note
+  return (s/len(l)) 
+
+#print(moyenne([10, 8, 12.5, 18, 8.75]))
+
+def syracuse(n):
+  print(n)
+  while n!=1:
+    if n%2==0:
+      n=n/2
+    else:
+      n=n*3+1
+    print(n)
+    
+#syracuse(15)
+
+def palindrome(mot: str) -> bool:
+  '''Renvoie True ou False si la chaine de charactère est identique dans les deux sens de lecture (gauche <-> droite)'''
+  for i in range(len(mot)):
+    print(i)
+    print(mot[i], mot[-(i+1)])
+    if mot[i] != mot[-(i+1)]:
+      return False
+  return True
+
+#print(palindrome('kayak'))
+#print(palindrome('pomme'))
+      
+      
+def filtre_paire(l: list) -> list:
+  '''Récupère les mot possédant un nombre pair de lettres'''
+  l2=[]
+  for elt in l:
+    if len(elt)%2==0:
+      l2.append(elt)
+  return l2
+
+#print(filtre_paire(['arbre', 'vers', 'ville', 'vélo']))
